@@ -1,0 +1,11 @@
+[
+  {
+    "bannerText": "50 Free Spins<br />on Gemix",
+    "timer": "00:25",
+    "buttonHtml": "Claim now"
+  },
+  {
+    "bannerText": "You’ve 50 Free<br>Spins to use now",
+    "buttonHtml": "<img src='../../assets/svg/icon-tick.svg'>"
+  }
+]

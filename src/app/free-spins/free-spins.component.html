@@ -1,0 +1,8 @@
+<div class="background p-0 d-flex align-items-center justify-content-center">
+  <div class="free-spins-block bg-light text-center" [ngClass]="{'claimed': spinsClaimed}">
+    <h1 class="free-spins-text" [innerHtml]="freeSpin.bannerText"></h1>
+    <h2 class="free-spins-timer">{{ freeSpin.timer }}</h2>
+    <button type="button" class="btn btn-primary free-spins-btn" [disabled]="spinsClaimed"
+      [innerHtml]="freeSpin.buttonHtml" (click)="onClick()"></button>
+  </div>
+</div>
